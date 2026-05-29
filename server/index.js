@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import "dotenv/config";
 import connectDB from './config/db.js';
-import authRoute from './rotute/authROute.js';
+import authRoute from './rotute/authRoute.js';
 import rankRouter from './rotute/routeRanking.js';
 import analysisRouter from './rotute/analysisRoute.js';
 import { rankTrackingDaily } from './cron/cron.js';
