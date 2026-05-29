@@ -13,6 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://seo-tracker-frontend.vercel.app",
       "https://seo-tracker-frontend-j6ilw51mb-raj5732s-projects.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
